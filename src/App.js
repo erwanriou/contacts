@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ListContacts from './ListContact';
+import * as ContactsAPI from './utils/ContactsAPI'
 
 class App extends Component {
   state = {
